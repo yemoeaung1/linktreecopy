@@ -1,0 +1,63 @@
+*{
+    background-color: aliceblue;
+}
+
+.round-image {
+    width: 250px;
+    height: 250px;
+    background-image: url('https://i.etsystatic.com/25570919/r/il/496308/2732111700/il_1588xN.2732111700_edou.jpg');
+    background-size: cover;
+    display: block;
+    border-radius: 125px;
+    border: 5px solid black;
+    margin: auto;
+    
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: beige;
+    
+}
+
+.tab a, h2 {
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    background-color: beige;
+    padding:10px;
+    margin: 10px;
+}
+
+.tab img{
+    width: 50px;
+    height: 25px;   
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    margin: 10px;
+    
+}
+
+.links img{
+    width: 50px;
+    height: 100%;
+    
+}
+
+
+
